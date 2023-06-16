@@ -1,5 +1,19 @@
 # The Homebrewery
 
+## My stuff
+
+To run:
+
+1. Open tmux
+2. Run the following
+```sh
+doas dockerd # Leave running in a separate pane
+doas docker-compose up -d
+```
+3. When done, `doas docker-compose down`
+
+## Everything else
+
 [![Homebrewery](https://circleci.com/gh/naturalcrit/homebrewery/tree/master.svg?style=svg)](https://app.circleci.com/pipelines/github/naturalcrit/homebrewery?branch=master)
 
 The Homebrewery is a tool for making authentic looking [D&D content][dnd-content-url]
